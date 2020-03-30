@@ -3,12 +3,22 @@
 <head>
 	<meta charset="UTF-8">
 	<title>qtaped | Matriarch bpm</title>
-
+	<link href="https://fonts.googleapis.com/css?family=Oswald:200,500&display=swap" rel="stylesheet"> 
 	<style>
-		body {background-color: #1E1E1E; color: #E1E1E1; font-family: Helvetica, Verdana, sans-serif;}
+		body {background-color: #1E1E1E; color: #E1E1E1; font-family: 'Oswald', sans-serif; font-weight: 200; letter-spacing: .05em;}
 		img {max-width: 100%; opacity: .7;}
 		img:hover {opacity: 1;}
-		section {max-width: 980px; padding:64px; margin: auto;}
+		section {max-width: 980px; padding:16px 32px; margin: 32px auto; border: 1px solid #4e4e4e; border-radius: 6px;}
+		h1 { text-transform:uppercase; font-size: 2em; font-weight: 500;}
+		h1:first-child { margin-top:0 !important; padding-bottom: .3em; border-bottom: 1px solid #4e4e4e;}
+		h2, h3 {text-transform:uppercase;font-weight: 500;}
+		a {color:#FFF;}
+		a.dwn { display: inline-block; text-transform: uppercase; border-radius: 4px; border:1px solid #1E1E1E; color: #1E1E1E; padding: .1em .4em; font-weight: 500; text-decoration: none; font-size: 1.2em; }
+		.yellow {background-color: #FFEF31;}
+		.blue {background-color: #5ED0EF;}
+		.green {background-color: #89EA49;}
+		.mauve {background-color: #CDB4FF;}
+		a.dwn:hover {background-color: #1E1E1E; color: #E1E1E1; border:1px solid #E1E1E1;}
 	</style>
 </head>
 <body>
@@ -16,13 +26,31 @@
 
 	<h1>Moog Matriarch back panel mirrored</h1>
 
-	<img alt="preview mbpm" src="preview.png" />
+	<a href="#download"><img alt="preview mbpm" src="preview.png"></a>
 	
 	<h3>This is the diagram of the back panel of the Moog Matriarch at scale 1:1, mirrored (but not the labels)</h3>
 	
-	<p>You can print it and tape it on the wall in front of you to quickly view the back labels and enjoy your patches.</p>
+	<p>You can print it and tape it on the wall in front of you (or wherever) to quickly view the back labels and enjoy your patches.</p>
+
+	<a href="#download"><img src="previewA4.jpg" alt="previewA4"></a>
+	<h3>Ready-to-print (A4): PRINT, CUT & PASTE.</h3>
 	
-	<h2>Work in progress.</h2>
+	<h2 id="download">Download links</h2>
+
+	<p>
+	<a class="dwn yellow" href="https://github.com/qtaped/matriarch-bpm/raw/master/pdf/Matriarch_bpm_full.pdf">Full 1:1</a>
+	<a class="dwn blue" href="https://github.com/qtaped/matriarch-bpm/raw/master/pdf/Matriarch_bpm_full_bw.pdf">Full 1:1 B&W</a>
+	<a class="dwn green" href="https://github.com/qtaped/matriarch-bpm/raw/master/pdf/Matriarch_bpm_A4.pdf">Ready-to-print (A4)</a>
+	<a class="dwn mauve" href="https://github.com/qtaped/matriarch-bpm">All versions</a>
+	</p>
+
+	<p>Last update: 2020.03.30<br>
+	Issue with files? Report <a href="https://github.com/qtaped/matriarch-bpm/issues">here</a>.</p>
+
+<p>This is not an official Moog site, more informations about Moog Matriarch here : <a href="https://www.moogmusic.com/products/matriarch">www.moogmusic.com/products/matriarch</a></p>
+
+<img src="demo.jpg" alt="demombpm">
+
 </section>
 </body>
 </html>
